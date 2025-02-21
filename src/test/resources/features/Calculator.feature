@@ -28,7 +28,7 @@ Feature: Adding numbers with a Calculator
     When i multiply -1 and -1
     Then the result should be 1
 
-  Scenario: Add a positive and negative number
+  Scenario: Multiply a positive and negative number
     Given a Calculator
     When i multiply 1 and -1
     Then the result should be -1
